@@ -1,10 +1,12 @@
 package main
 
+import com.typesafe.scalalogging.StrictLogging
+
 /**
  * @author Tobin Yehle
  */
-object Driver {
+object Driver extends StrictLogging {
   def main(args: Array[String]) {
-    println("hello world")
+    logger.info("Hello World")
   }
 }
